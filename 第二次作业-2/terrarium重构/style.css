@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+   }
+body {
+	font-family: helvetica, arial, sans-serif;
+	}
+p{
+    font-weight: bold;
+	text-align: center;
+	top: 10px;
+}
+.container {
+		top:398px;
+		left: 1%;
+        border: solid 2px rgb(255, 255, 255);
+		background-color: #e9f0ed;
+        height: 200px;
+       	width: 98%;
+	   	position: absolute;
+	 	display: grid;
+		grid-template-columns:repeat(7,1fr);
+		grid-template-rows:  repeat(2,1fr);
+		justify-content: center ;
+        align-content:center; 
+
+}
+
+.plant {
+	
+	width: 70%;
+	max-height: 100px;
+	z-index: 2;
+	
+}
+
+.jar-walls {
+	height: 42.5%;
+	width: 70%;
+	background: #d9e3e2;
+	border-radius: 4rem;
+	position: absolute;
+	bottom: 37.5%;
+	left: 15%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 40%;
+	height: 2.5%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 80%;
+	left: 30%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 50%;
+	height: 2.5%;
+	background: #d1e1df;
+	position: absolute;
+	bottom: 35%;
+	left: 25%;
+	opacity: 0.7;
+}
+
+.dirt {
+	width: 68%;
+	height: 8%;
+	background: #3a241d;
+	position: absolute;
+	border-radius: 0 0 4rem 4rem;
+	bottom: 37.5%;
+	left: 16%;
+	z-index: -1;
+}
+
+.jar-glossy-long {
+	width: 3%;
+	height: 20%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 22%;
+	left: 5%;
+	opacity: 0.5;
+}
+
+.jar-glossy-short {
+	width: 3%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 47%;
+	left: 5%;
+	opacity: 0.5;
+}
