@@ -1,0 +1,24 @@
+<!-- inside index.html -->
+<html>
+<head>
+  <title>Typing game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Typing game!</h1>
+  <dialog class="a" id="a" open>
+    <div class="myDialogClose" onclick="this.parentNode.close()">关闭</div>
+    <h1>CONGRATULATIONS!</h1>
+    <p id="b"></p>
+  </dialog>
+  <p>Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
+  <p id="quote"></p> <!-- This will display our quote -->
+  <p id="message"></p> <!-- This will display any status messages -->
+  <p id="highestscore"></p>
+  <div>
+    <input type="text" aria-label="current word" id="typed-value"  /> <!-- The textbox for typing -->
+    <button type="button" id="start" >Start</button> <!-- To start the game -->
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
